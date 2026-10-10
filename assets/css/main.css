@@ -276,3 +276,22 @@ img,svg,iframe{max-width:100%}
 /* Decorative section labels — visually match former h4 styling, kept out of the heading outline on purpose */
 .mm-label{font-family:'Space Grotesk',sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--gray);margin:22px 0 10px;font-weight:700}
 .footer-h{color:var(--ink);font-size:16px;margin-bottom:12px;font-weight:700}
+
+/* anchor-style cards (service-area hub) and links on dark page headers */
+a.local{display:block;color:var(--ink);text-decoration:none;transition:border-color .15s,box-shadow .15s}
+a.local:hover{border-color:var(--cyan-d);box-shadow:0 8px 22px rgba(13,27,42,.08)}
+a.local h3{color:var(--ink)}
+a.local p{color:var(--gray)}
+a.local span{color:var(--cyan-d);font-weight:700;font-size:14px}
+.pagehead p a{color:var(--cyan);font-weight:600}
+
+/* para-spacing: body paragraphs inside page sections had no vertical rhythm because of the global reset */
+main .sec .wrap>p:not([class]),main .twocol>div>p:not([class]),main .sec .wrap>div>p:not([class]){margin:0 0 16px;line-height:1.72}
+main .twocol>div>p:not([class]):last-child,main .sec .wrap>p:not([class]):last-child{margin-bottom:0}
+main .boxgrid+p:not([class]),main .factors+p:not([class]),main .compare+p:not([class]),main .steps+p:not([class]),main .rel+p:not([class]),main .localgrid+p:not([class]),main .areas+p:not([class]),main .faq+p:not([class]){margin-top:20px}
+main .twocol>div>p:not([class])+.boxgrid,main .twocol>div>p:not([class])+.factors,main .twocol>div>p:not([class])+.compare,main .twocol>div>p:not([class])+.faq,main .twocol>div>p:not([class])+.localgrid{margin-top:4px}
+main .kick+h2+p:not([class]){margin-top:2px}
+main .boxgrid+.kick-spaced,main .factors+.kick-spaced,main .compare+.kick-spaced,main .faq+.kick-spaced,main .rel+.kick-spaced,main .localgrid+.kick-spaced,main .areas+.kick-spaced,main .midcta+.kick-spaced{margin-top:44px}
+main .sec .wrap>p:not([class]) a,main .twocol>div>p:not([class]) a{color:var(--cyan-d);font-weight:600}
+main h1,main h2,main h3{line-height:1.22}
+main .pagehead h1{line-height:1.15}
