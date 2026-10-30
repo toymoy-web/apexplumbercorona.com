@@ -295,3 +295,7 @@ main .boxgrid+.kick-spaced,main .factors+.kick-spaced,main .compare+.kick-spaced
 main .sec .wrap>p:not([class]) a,main .twocol>div>p:not([class]) a{color:var(--cyan-d);font-weight:600}
 main h1,main h2,main h3{line-height:1.22}
 main .pagehead h1{line-height:1.15}
+
+.footer-social{margin-top:14px}
+.footer-social .footer-h{margin-bottom:8px}
+footer .footer-social a{display:inline-block;margin:0 14px 6px 0;font-size:14px;font-weight:600}
