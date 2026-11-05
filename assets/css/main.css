@@ -299,3 +299,7 @@ main .pagehead h1{line-height:1.15}
 .footer-social{margin-top:14px}
 .footer-social .footer-h{margin-bottom:8px}
 footer .footer-social a{display:inline-block;margin:0 14px 6px 0;font-size:14px;font-weight:600}
+
+@media(max-width:400px){.twocol,.boxgrid,.compare,.localgrid{grid-template-columns:minmax(0,1fr)}.twocol>*,.boxgrid>*,.localgrid>*{min-width:0}footer .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}footer a,footer p,.sign p,.sign h3{overflow-wrap:anywhere}}
+@media(max-width:400px){.areas.areas-3col{grid-template-columns:repeat(2,minmax(0,1fr))}.areas a{overflow-wrap:anywhere}.why{grid-template-columns:minmax(0,1fr)}.hero{overflow:hidden}}
+.facts-list{margin:0 0 16px;padding-left:22px;list-style:disc}.facts-list li{margin:0 0 8px;line-height:1.65}
